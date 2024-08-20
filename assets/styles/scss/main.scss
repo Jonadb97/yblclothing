@@ -79,7 +79,7 @@ button:hover {
 }
 
 .nav-buttons {
-    margin-right: 1vw;
+    margin-right: 3vw;
     display: flex;
     gap: 2rem;
 
@@ -103,6 +103,7 @@ button:hover {
 .landing {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 .presentation {
@@ -153,7 +154,7 @@ button:hover {
     flex-direction: column;
     margin: auto;
     padding: 5vh 3vw 5vh 3vw;
-    height: 100vh;
+    height: 80vh;
 
     .bestseller-item:hover {
         cursor: pointer;
@@ -185,7 +186,7 @@ button:hover {
             display: flex;
 
             img {
-                max-width: 18vw;
+                max-width: 240px;
                 object-fit: contain;
             }
         }
@@ -200,10 +201,11 @@ button:hover {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    margin: auto;
 }
 
 .activewear-section {
-    height: 80vh;
+    height: 85vh;
     background-image: url('../../img/back-view-athlete-with-copy-space.jpg');
     background-position: 100%;
     background-size: cover;
@@ -219,7 +221,7 @@ button:hover {
         color: white;
 
         h1 {
-            font-size: 5rem;
+            font-size: 5vw;
             font-weight: 300;
             line-height: 2rem;
             font-family: 'Gilda Display';
@@ -264,11 +266,9 @@ button:hover {
     background-image: url('../../img/top-view-composition-with-neatly-arranged-organized-sport-items.jpg');
     background-size: cover;
     background-position: center;
-    padding: 3rem;
 }
 
 .shopthelook-looks {
-    width: 50vw;
 
     h1 {
         font-family: 'Gilda Display';
@@ -344,7 +344,7 @@ button:hover {
         width: 50vw;
         background-image: url('../../img/confident-sportive-models-studio.jpg');
         background-size: cover;
-        padding: 4rem;
+
     }
 
     .values-text {
@@ -352,24 +352,27 @@ button:hover {
         display: flex;
         flex-direction: column;
         margin: auto;
-        padding: 4rem;
 
         h1 {
             font-family: 'Gilda Display';
             font-size: 4rem;
             font-weight: 300;
+            padding: 4rem;
         }
 
         .weare {
             text-transform: uppercase;
+            padding: 4rem;
         }
 
         p {
             font-family: 'Nunito';
+            padding: 4rem;
         }
 
         button {
             width: 150px;
+            margin-left: 4rem;
         }
     }
 
